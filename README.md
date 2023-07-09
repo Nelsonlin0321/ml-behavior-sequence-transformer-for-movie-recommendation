@@ -1,6 +1,6 @@
 # Behavior Sequence Transformer for Movie Recommendation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1taTJsYokHo8xHL35O5FayOCCxiT0z_XB#scrollTo=rm5d_fzS3yWI)
 
 ## Introduction
 
@@ -17,11 +17,24 @@ We use the 1M version of the Movielens dataset. The dataset includes around 1 mi
 ## Results
 We train all user ratings and leave the latest rating as a label. Compared to  other impletementations, we achieve the best result below:
 
-| Implementation |  MAE  | RMSE |
+| Implementation |  MAE  | Sequence Length |
 | :------ | :---: | ---: |
-| [Offical Keras Implemenation ](https://keras.io/examples/structured_data/movielens_recommendations_transformers/)   | 0.761  | N/A |
-| [Other Pytorch Implementation](https://github.com/jiwidi/Behavior-Sequence-Transformer-Pytorch)    | 0.74  | 0.93 |
-| [My Pytorch Implementation](https://github.com/Nelsonlin0321/ml-behavior-sequence-transformer-for-movie-recommendation)    | 0.676  | 0.908 |
+| [My Pytorch Implementation](https://github.com/Nelsonlin0321/ml-behavior-sequence-transformer-for-movie-recommendation)    | 0.687  | 4 |
+| [Offical Keras Implemenation ](https://keras.io/examples/structured_data/movielens_recommendations_transformers/)   | 0.761  | 4 |
+| [My Pytorch Implementation](https://github.com/Nelsonlin0321/ml-behavior-sequence-transformer-for-movie-recommendation)    | 0.649 | 10 |
+| [Other Pytorch Implementation](https://github.com/jiwidi/Behavior-Sequence-Transformer-Pytorch)    | 0.74  | 10 |
+
+
+
+## Experiments on Sequence Length
+
+| Sequence Length |  MAE  | Batch Size |
+| :------ | :---: | ---: |
+| 4     |  0.6870  |128|
+| 10    | 0.6487  | 64|
+| 15    | 0.6751 | 32|
+| 20    | 0.6716  |32|
+
 
 
 ## To Reproduce the Result 
