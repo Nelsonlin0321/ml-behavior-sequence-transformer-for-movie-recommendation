@@ -19,7 +19,7 @@ We train all user ratings and leave the latest rating as a label. Compared to  o
 
 | Implementation |  MAE  | Sequence Length |
 | :------ | :---: | ---: |
-|  :rocket:[My Pytorch Implementation](https://github.com/Nelsonlin0321/ml-behavior-sequence-transformer-for-movie-recommendation)    | 0.687  | 4 |
+|  :rocket:[My Pytorch Implementation](https://github.com/Nelsonlin0321/ml-behavior-sequence-transformer-for-movie-recommendation)    | 0.678  | 4 |
 | [Offical Keras Implemenation ](https://keras.io/examples/structured_data/movielens_recommendations_transformers/)   | 0.761  | 4 |
 |  :rocket:[My Pytorch Implementation](https://github.com/Nelsonlin0321/ml-behavior-sequence-transformer-for-movie-recommendation)    | 0.649 | 10 |
 | [Other Pytorch Implementation](https://github.com/jiwidi/Behavior-Sequence-Transformer-Pytorch)    | 0.74  | 10 |
@@ -31,7 +31,7 @@ We train all user ratings and leave the latest rating as a label. Compared to  o
 | Sequence Length |  MAE  | Batch Size |
 | :------ | :---: | ---: |
 | 4     |  0.6776  |128|
-| 10    | 0.6486  | 64|
+| 10    | 0.6487  | 64|
 | 15    | 0.6751 | 32|
 | 20    | 0.6716  |32|
 
