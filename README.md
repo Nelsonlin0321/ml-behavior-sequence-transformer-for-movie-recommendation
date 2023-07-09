@@ -7,7 +7,7 @@
 This repository is to implement the behavior sequence transformer model proposed by Alibaba, which can be found in this paper: https://arxiv.org/abs/1905.06874
 and is to leverages this sequential behaviour of the users in watching and rating movies, as well as user profile and movie features, to predict the rating of the user to a target movie.
 
-![](images/bst.png "BST MODEL ARCHITECTURE")
+![](images/bst.png)
 
 
 ## Dataset
@@ -44,3 +44,5 @@ You can run it in colab [here](https://colab.research.google.com/drive/1jpzsW0R7
 ## Weights & Biases Report 
 
 https://api.wandb.ai/links/nelsonlin0321/0kp9amzs
+
+![](images/wandb.png)
