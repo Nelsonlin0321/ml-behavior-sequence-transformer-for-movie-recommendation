@@ -42,4 +42,5 @@ We train all user ratings and leave the latest rating as a label. Compared to  o
 You can run it in colab [here](https://colab.research.google.com/drive/1jpzsW0R74cVwyCHgG4A4cG2_fajmb8bI) or notebook `A_Behavior_Sequence_Transformer_For_Movie_Recommendation.ipynb` locally to repreoduce the result or `A_Behavior_Sequence_Transformer_For_Movie_Recommendation(W&B).ipynb` to track the metrics on Weights & Baises.
 
 ## Weights & Biases Report 
-<iframe src="https://wandb.ai/nelsonlin0321/BST%20For%20Movielens%201M%20Recommendation/reports/Behavior-Sequence-Transformer-For-movie-Recommendation---Vmlldzo0ODM0NDg1" style="border:none;height:1024px;width:100%">
+
+https://api.wandb.ai/links/nelsonlin0321/0kp9amzs
