@@ -30,8 +30,8 @@ We train all user ratings and leave the latest rating as a label. Compared to  o
 
 | Sequence Length |  MAE  | Batch Size |
 | :------ | :---: | ---: |
-| 4     |  0.6870  |128|
-| 10    | 0.6487  | 64|
+| 4     |  0.6776  |128|
+| 10    | 0.6486  | 64|
 | 15    | 0.6751 | 32|
 | 20    | 0.6716  |32|
 
