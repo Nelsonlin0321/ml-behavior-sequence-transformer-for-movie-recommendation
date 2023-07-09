@@ -1,4 +1,5 @@
-# Behavior-Sequence-Transformer-Pytorch
+# behavior Sequence Transformer for Movie Recommendation
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 ## Introduction
