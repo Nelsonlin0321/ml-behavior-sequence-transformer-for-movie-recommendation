@@ -1,6 +1,6 @@
 # Behavior Sequence Transformer for Movie Recommendation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jpzsW0R74cVwyCHgG4A4cG2_fajmb8bI)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Fyq9gKCZ5negtoCpYAYjg4kIzwnCsnnN)
 
 ## Introduction
 
@@ -39,7 +39,7 @@ We train all user ratings and leave the latest rating as a label. Compared to  o
 
 ## To Reproduce the Result 
 
-You can run it in colab [here](https://colab.research.google.com/drive/1jpzsW0R74cVwyCHgG4A4cG2_fajmb8bI) or notebook `A_Behavior_Sequence_Transformer_For_Movie_Recommendation.ipynb` locally to repreoduce the result or `A_Behavior_Sequence_Transformer_For_Movie_Recommendation(W&B).ipynb` to track the metrics on Weights & Baises.
+You can run it in colab [here](https://colab.research.google.com/drive/1Fyq9gKCZ5negtoCpYAYjg4kIzwnCsnnN) or notebook `A_Behavior_Sequence_Transformer_For_Movie_Recommendation.ipynb` locally to repreoduce the result or `A_Behavior_Sequence_Transformer_For_Movie_Recommendation(W&B).ipynb` to track the metrics on Weights & Baises.
 
 ## Weights & Biases Report 
 
